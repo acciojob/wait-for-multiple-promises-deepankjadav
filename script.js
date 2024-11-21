@@ -4,6 +4,7 @@ let output = document.getElementById("output");
 
 // Add the initial loading row
 let loadingRow = document.createElement("tr");
+loadingRow.id = "loading";
 loadingRow.innerHTML = `<td colspan="2">Loading...</td>`;
 output.appendChild(loadingRow);
 
